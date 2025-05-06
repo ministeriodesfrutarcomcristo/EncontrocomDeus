@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscrição - Encontro com Deus</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 20px; }
+    .container { max-width: 700px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+    h1, h2 { text-align: center; color: #333; }
+    label { display: block; margin-top: 15px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; box-sizing: border-box; }
+    button { background: #00796B; color: white; border: none; padding: 15px; margin-top: 20px; width: 100%; font-size: 16px; cursor: pointer; }
+    button:hover { background: #005f56; }
+    .info { background: #e0f2f1; padding: 15px; border-left: 5px solid #00796B; margin-top: 20px; }
+    .logo { display: block; max-width: 250px; margin: 0 auto 20px auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="LOGO.png" alt="Ministério Desfrutar com Cristo" class="logo">
+    <h1>Ministério Desfrutar com Cristo</h1>
+    <h2>Inscrição - Encontro com Deus</h2>
+
+    <div class="info">
+      <p><strong>DATA:</strong> 06/06/2025 a 08/06/2025</p>
+      <p><strong>IDADE MÍNIMA:</strong> 15 anos</p>
+      <p><strong>Observação:</strong> Não é permitido crianças no evento.</p>
+    </div>
+
+    <form action="https://formsubmit.co/SEU_EMAIL@gmail.com" method="POST">
+      <label>Nome completo*</label>
+      <input type="text" name="nome" required>
+      <label>Seu e-mail</label>
+      <input type="email" name="email">
+      <label>Idade*</label>
+      <input type="number" name="idade" required>
+      <label>Sexo*</label>
+      <select name="sexo" required>
+        <option value="">Selecione</option>
+        <option value="M">M</option>
+        <option value="F">F</option>
+      </select>
+      <label>DDD</label>
+      <input type="text" name="ddd">
+      <label>Telefone / celular</label>
+      <input type="text" name="telefone">
+      <label>CPF (do participante)*</label>
+      <input type="text" name="cpf">
+      <label>Foi convidado por?</label>
+      <input type="text" name="convidado_por">
+      <label>Família / Igreja*</label>
+      <input type="text" name="igreja" required>
+      <label>Frequenta alguma igreja?</label>
+      <select name="frequenta_igreja">
+        <option value="SIM">SIM</option>
+        <option value="NÃO">NÃO</option>
+      </select>
+      <label>Toma alguma medicação?</label>
+      <select name="medicacao">
+        <option value="SIM">SIM</option>
+        <option value="NÃO">NÃO</option>
+      </select>
+      <label>Sofre de alguma doença?</label>
+      <select name="doenca">
+        <option value="SIM">SIM</option>
+        <option value="NÃO">NÃO</option>
+      </select>
+      <label>É gestante?</label>
+      <select name="gestante" required>
+        <option value="SIM">SIM</option>
+        <option value="NÃO">NÃO</option>
+      </select>
+      <label>Contatos de emergência</label>
+      <input type="text" name="contato_emergencia_nome" placeholder="Nome">
+      <input type="text" name="contato_emergencia_tel" placeholder="Telefone">
+      <h3>Autorização para menores de idade</h3>
+      <label>Nome do responsável</label>
+      <input type="text" name="responsavel">
+      <label>RG do responsável</label>
+      <input type="text" name="rg">
+      <label>Grau de parentesco</label>
+      <input type="text" name="parentesco">
+      <label>Autorizo o menor</label>
+      <input type="text" name="nome_menor" placeholder="Nome do menor autorizado">
+      <p><strong>Endereço:</strong> R. Raimundo Almeida de Araújo 803</p>
+      <p><strong>Horário de chegada:</strong> Sexta-feira até as 19:30H</p>
+      <p><strong>Retorno:</strong> Domingo após o almoço</p>
+      <p><strong>Importante:</strong> Leve roupas confortáveis, roupas de cama (solteiro), travesseiro, cobertor e itens de higiene pessoal.</p>
+      <p><strong>Pagamento:</strong> Pode ser feito diretamente na igreja enquanto houver vagas disponíveis.</p>
+      <button type="submit">Enviar inscrição</button>
+    </form>
+  </div>
+</body>
+</html>
